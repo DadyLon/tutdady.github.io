@@ -1,0 +1,139 @@
+.jumbotron{
+    background-image: url(img/jumbhp.png);
+    background-size: 100%;
+    height: 500px;
+    position: relative;
+}
+.jumbotron .header{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.0);
+}
+.jumbotron .bawah{
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.0);
+}
+.jumbotron img{
+    border-radius: 100%;
+    width: 200px;
+    height:200px;
+    border : 2px solid white;
+}
+.jumbotron .text{
+    color: white;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+}
+.jumbotron .display-4{
+    color: white;
+    margin-top: 100px;
+    font-weight:200 ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    font-size: 40px;
+}
+.jumbotron .display-4 span{
+    
+    font-weight:500 ;
+}
+.row .about{
+    margin-top: 25px;
+}
+
+
+/* info */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 20px;
+}
+.info-panel img{
+    width: 90px;
+    height: 90px;
+    margin-left: 35%;
+    margin-bottom: -5px; 
+}
+
+.info-panel h4{
+    margin-left: 40%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+     margin-top: 5px; 
+} 
+.info-panel p{
+    font-size: 14px;
+    color:#acac;
+    margin-top: -5px;
+    font-weight: 500;
+}
+
+ .jumbotronskill { 
+    background-image: url(img/back.jpg);
+    width: auto;
+}
+/* 
+/* working 
+.working{
+    margin-top: 120px;
+}
+.working h3{
+    font-size:52px ;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.working h3 span{
+    font-weight: 500;
+}
+.working p{
+    font-size: 20px;
+font-weight: 300;
+} */
+
+.pp{
+    width: auto;
+    height: 50%;
+}
+
+.pp .img{
+    width: 400px;
+    height: auto;
+}
+
+/* desktop version */
+@media (min-width: 992px) { 
+    .jumbotron{
+        background-image: url(img/jumbotron.jpg);
+        margin-top:-75px ;
+        height: 640px;
+    }
+    .jumbotron .display-4{
+        font-size: 62px;
+        margin-top: 200px;
+    }
+    .info-panel img{
+        width: 90px;
+        height: 90px;
+        margin-left: 40px;
+        margin-bottom: -5px; 
+    }
+    .info-panel h4{
+        margin-left: 58px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+         margin-top: 5px; 
+
+ }
